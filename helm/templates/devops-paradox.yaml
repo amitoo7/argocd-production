@@ -14,9 +14,9 @@ spec:
     helm:
       values: |
         image:
-          tag: latest
+          tag: 2.17.9
         ingress:
-          host: devopsparadox.com
+          host: test.xyz.com
       version: v3
   destination:
     namespace: production
